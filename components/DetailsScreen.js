@@ -7,7 +7,7 @@ export function DetailsScreen({ navigation }) {
     <View style={styles.details}>
       <Text>Details Screen!</Text>
       <Button title="Goto Home" onPress={() => navigation.navigate("Home")} />
-      <StatusBar style="auto" backgroundColor="#aaaaaa" />
+      <StatusBar style="auto" />
     </View>
   );
 }
@@ -17,6 +17,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#fff6ff",
+    backgroundColor: "#FFBC4D",
   },
 });
