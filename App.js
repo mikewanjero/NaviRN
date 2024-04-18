@@ -13,9 +13,19 @@ export default function App() {
         <Stack.Screen
           name="Home"
           component={HomeScreen}
-          options={{ title: "Overview" }}
+          options={{
+            title: "Overview",
+            headerStyle: { backgroundColor: "coral" },
+          }}
         />
-        <Stack.Screen name="Details" component={DetailsScreen} />
+        <Stack.Screen
+          name="Details"
+          component={DetailsScreen}
+          options={{
+            title: "About",
+            headerStyle: { backgroundColor: "coral" },
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
