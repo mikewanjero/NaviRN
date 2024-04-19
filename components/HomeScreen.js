@@ -10,6 +10,18 @@ export function HomeScreen({ navigation }) {
         title="Goto Details"
         onPress={() => navigation.navigate("Details")}
       />
+      <Button
+        title="Goto Notifications"
+        onPress={() => navigation.navigate("Notifications")}
+      />
+      <Button
+        title="Goto Profile"
+        onPress={() => navigation.navigate("Profile")}
+      />
+      <Button
+        title="Goto Settings"
+        onPress={() => navigation.navigate("Settings")}
+      />
       <StatusBar style="auto" />
     </View>
   );
