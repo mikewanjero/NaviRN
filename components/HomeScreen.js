@@ -1,6 +1,7 @@
 import * as React from "react";
 import { StyleSheet, Text, View, Button } from "react-native";
 import { StatusBar } from "expo-status-bar";
+import { BottomTabs } from "./BottomTabs";
 
 export function HomeScreen({ navigation }) {
   return (
@@ -23,6 +24,7 @@ export function HomeScreen({ navigation }) {
         onPress={() => navigation.navigate("Settings")}
       />
       <StatusBar style="auto" />
+      <BottomTabs />
     </View>
   );
 }
