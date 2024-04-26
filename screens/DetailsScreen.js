@@ -2,7 +2,6 @@ import * as React from "react";
 import { useState } from "react";
 import { StyleSheet, Text, View, FlatList, Button } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import { ScrollView } from "react-native-gesture-handler";
 
 export function DetailsScreen({ navigation }) {
   const [tableData, setTableData] = useState(initialData);
@@ -158,7 +157,6 @@ export function DetailsScreen({ navigation }) {
         onPress={() => navigation.navigate("Settings")}
       />
       <StatusBar style="auto" />
-      <BottomTabs />
     </View>
   );
 }

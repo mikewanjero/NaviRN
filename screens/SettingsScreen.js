@@ -20,7 +20,6 @@ export function SettingsScreen({ navigation }) {
         onPress={() => navigation.navigate("Profile")}
       />
       <StatusBar style="auto" />
-      <BottomTabs />
     </View>
   );
 }
